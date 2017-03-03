@@ -17,7 +17,7 @@ func ==(lhs: TZAnimationDidStopQueueEntry, rhs: TZAnimationDidStopQueueEntry) ->
     return lhs.view === rhs.view
 }
 
-public class TZStackView: UIView {
+open class TZStackView: UIView {
 
     public var distribution: TZStackViewDistribution = .fill {
         didSet {
